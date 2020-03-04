@@ -6,12 +6,24 @@
   <!-- 组织Id、项目Id、版本号 -->
   <groupId>com.github.isliqian</groupId>
   <artifactId>common-tools</artifactId>
-  <version>1.0.0-RELEASE</version>
+  <version>1.0.0</version>
 
   <!-- 项目描述 -->
   <name>common-tools</name>
   <url>https://github.com/isliqian</url>
   <description>Common tools</description>
+
+
+
+
+  <!-- 编码格式 -->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+
+  </dependencies>
 
   <!-- 开源协议 -->
   <licenses>
@@ -28,18 +40,6 @@
     <url>https://github.com/isliqian/common-tools</url>
     <connection>https://github.com/isliqian/common-tools</connection>
   </scm>
-
-
-  <!-- 编码格式 -->
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-  <dependencies>
-
-  </dependencies>
-
-
   <!-- 开发者信息 -->
   <developers>
     <developer>
