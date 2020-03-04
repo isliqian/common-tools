@@ -4,9 +4,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <!-- 组织Id、项目Id、版本号 -->
-  <groupId>io.github.isliqian</groupId>
+  <groupId>com.github.isliqian</groupId>
   <artifactId>common-tools</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0-RELEASE</version>
 
   <!-- 项目描述 -->
   <name>common-tools</name>
@@ -66,7 +66,6 @@
           <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
-
     </plugins>
   </build>
 
@@ -80,7 +79,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
-            <version>2.4</version>
+            <version>2.2.1</version>
             <executions>
               <execution>
                 <phase>package</phase>
@@ -94,7 +93,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
-            <version>2.9.1</version>
+            <version>2.10.1</version>
             <!-- -Xdoclint:none 是为了生存apidoc的时候检查不必太严格-->
             <configuration>
               <additionalparam>-Xdoclint:none</additionalparam>

@@ -1,4 +1,4 @@
-package io.github.isliqian.tools;
+package com.github.isliqian.tools;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

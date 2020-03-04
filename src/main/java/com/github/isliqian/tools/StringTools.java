@@ -1,4 +1,4 @@
-package io.github.isliqian.tools;
+package com.github.isliqian.tools;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
